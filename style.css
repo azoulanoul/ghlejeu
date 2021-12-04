@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Fredoka One', cursive;font-family: 'Righteous', cursive;
+}
+html{
+    background-size: cover;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    background-attachment: fixed;
+    background-image: url(https://uc482e6f8ca0bc143b031a338a40.previews.dropboxusercontent.com/p/thumb/ABVW5vrXBAnoUGnjklvINFbnFiekThfEyVfnosiQYCn47DKPb9dkYWqN9RqK6uylyFi63LylTCGt3Qy2K9ggMH-z27TlZkw0rQaFKOLo-r9JY5kse9odtGnA2xx0cNTrSqOQfh_LFdQky0tQdtK6oTWxDpavcRJqANGsIbDYBsCmhGpfBemwkATds0RZAeDgUKWnHyYWgA69Z6wNN-DX--f_7ipMG-KrFJIBDNmYpE5ubHKgcHQg6SJc5MVzJIxtO1yF-_LORj7_G2NddsTf-B9WqyI8eNLaRwiOT_0FNMq5cbASK58i18H35ZqOcxyjKDl_pp_lVx2qfi9zgstjBafH_ZATvnw9wWTwgP_zff7NcGPcObfItNjKR4c7_KtW0AtG9NyO-g-ajPOWGWN-DBOhEbP-itn04ms4uFXiK8RYABxcw8U4BPqXFvfodacnZ7s/p.png);
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    align-items: center;
+    margin-top: 50px;
+}
+li{
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    padding-top: 60px;
+}
+.cover{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 300px;
+}
+.covercontrol{
+
+  
+    border-radius: 20px;
+}
+
+.pos{
+    display: flex;
+    height: 100vh;
+    background: white;
+
+}
+section{
+    height: auto;
+    width: 100vw;
+    background: rgba(255, 255, 255, 0);
+    background: linear-gradient(180deg,  rgba(0, 0, 0, 0.062) 0%, rgba(0,0,0,1)40%, rgba(0,0,0,1) 100%);
+    
+   
+}
+.rounded{
+    border-radius: 30px;
+    height: 400px;
+    width: auto;
+    transform: rotate(-5deg);
+    margin-left: 100px;
+    margin-bottom: 40px;
+    box-shadow: 15px 15px 80px;
+    cursor: pointer;
+    margin-top: 200px;
+    z-index: 1000;
+}
+.rounded:hover{
+  transform: rotate(0deg);
+  transform: scale(1.11);
+  transition: step-start  1s;
+
+}
+.covercard{
+    border-radius: 30px;
+    height: 400px;
+    width: auto;
+    transform: rotate(+15deg);
+    margin-left: -100px;
+    margin-bottom: 40px;
+    box-shadow: 15px 15px 80px;
+    z-index: 1;
+    margin-top: 150px;
+}
+.gh{
+    transform: rotate(+15deg);
+}
+.navcontainer{
+    width: 600px;
+    height: 500px;
+
+   margin-left: 15%;
+   margin-top:auto;
+   margin-bottom: auto;
+   border-radius: 15px;
+  
+
+   
+
+}
+.tile{
+    display: grid;
+grid-template-columns: repeat(4,1fr);
+grid-gap: 5px;
+grid-auto-rows: minmax(40px, 60vh);
+justify-content: space-between;
+align-items: center;
+padding-top: 80px;
+padding-left: 105px;
+flex-wrap: wrap;
+
+
+
+
+}
+ .tilepic{
+    height: 300px;
+    width: auto;
+    border-radius: 18px;
+    box-shadow: 5px 5px 15px 15px rgba(0, 0, 0, 0.623);
+    transition: ease-in-out 0.5s;
+ }
+ .tilepic2{
+    height: 300px;
+    width: auto;
+    border-radius: 18px;
+    box-shadow: 5px 5px 15px 15px rgba(0, 0, 0, 0.623);
+    transition: ease-in-out 0.5s;
+ }
+ 
+ .tilepic:hover{
+     
+     transform: scale(1.5) rotate(-5deg);
+     
+   
+ }
+ .tilepic2:hover{
+    transform: scale(1.5) rotate(+5deg);
+ }
+ 
+ .preorder{
+     height: 100vh;
+     width: 100vw;
+     background:black;
+     color: white;
+     font-size: 50px;
+     text-align: center;
+ }
+ p{
+     padding-top: 20px;
+ }
+ .frog{
+     margin-top: 50px;
+     border-radius: 50%;
+ }
